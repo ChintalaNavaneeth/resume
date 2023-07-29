@@ -432,7 +432,7 @@ img {
 /*========== SKILLS AND LANGUAGES ==========*/
 .skills__content,
 .languages__content {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 .skills__content,
 .languages__content {
@@ -453,6 +453,38 @@ img {
   border-radius: 50%;
   margin-right: 0.75rem;
 }
+.skills_table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+th, td {
+  padding: 9px;
+  border: none;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+.skills_row{
+  padding: 7px;
+}
+
+.header, .subheader {
+  background-color: #f2f2f2;
+}
+
+.skills_column1 {
+  width: 60%;
+  /* padding-right: 10px; Add space between Column 1 and Column 2 */
+}
+
+.skills_column2 {
+  width: 40%;
+}
+
+
 
 /*========== CERTIFICATES ==========*/
 .certificate__title {
